@@ -14,8 +14,8 @@ const Read = () => {
   }, []);
 
   return (
-    <div className="  flex justify-center items-center h-screen">
-      <div className=" container gap-y-1 w-3/4 rounded-md bg-slate-200 shadow  py-3 px-4 flex flex-col ">
+    <div className=" px-4  flex justify-center items-center h-screen">
+      <div className=" container gap-y-1 w-full max-w-[800px] rounded-md bg-slate-200 shadow   py-3 px-4 flex flex-col ">
         <h1 className=" text-center text-4xl mb-3">Detail of User</h1>
         <strong className=" capitalize">Name: {data.name}</strong>
         <strong>Email: {data.email}</strong>

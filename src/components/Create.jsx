@@ -20,8 +20,8 @@ const Create = () => {
   };
 
   return (
-    <div className=" flex justify-center items-center h-screen ">
-      <div className=" w-3/4 max-w-[800px] border bg-slate-200 shadow px-5 py-4 rounded">
+    <div className=" mx-4  flex justify-center items-center h-screen ">
+      <div className=" w-full  max-w-[800px] border bg-slate-200 shadow px-5 py-4 rounded">
         <h1 className=" text-4xl mb-3 text-center">Add a User</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-2">

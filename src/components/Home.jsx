@@ -24,7 +24,7 @@ const Home = () => {
   };
 
   return (
-    <div className=" mt-5 container mx-auto px-3 flex flex-col justify-center items-center ">
+    <div className=" mt-5 container mx-auto px-4 flex flex-col justify-center items-center ">
       <h1 className=" text-5xl mb-5">List of Users</h1>
       <div className=" w-full max-w-[1000px] rounded p-2 bg-white border shadow">
         <div className=" flex justify-end">
